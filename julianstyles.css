@@ -1,0 +1,69 @@
+*  {
+    box-sizing:border-box;
+    background-color: rgb(6, 30, 37);
+    font-family:Georgia, 'Times New Roman', Times, serif;
+    color:rgb(204, 102, 70);
+    font-weight: bold;
+    font-size: larger;
+
+}
+
+.social-icons {
+   padding-left:250px;
+  display:flex;
+align-items:center;
+grid-auto-columns: 1fr;
+letter-spacing: 20px;
+
+}
+
+
+.titler {display: flex;
+    justify-content: center;
+    text-align: center;
+background-color:rgb(2, 121, 151);
+border-radius: 1000px;
+
+
+}
+
+
+
+.front {display:flex;
+    justify-content: center;
+    align-items: center;
+    object-fit: cover;
+    border-radius: 10px;
+
+
+}
+
+.front.img {
+    width: 25%;
+
+    object-fit: cover;
+
+    padding: 0 4px;
+    border-radius: 10px;
+
+}
+
+#gallery {display:flex;
+flex-direction:row;
+flex-wrap:wrap;
+justify-content: center;
+align-items: center;
+
+}
+
+#gallery img {
+width: 25%;
+height: 300px;
+object-fit: cover;
+margin-top: 8px;
+padding: 0 4px;
+border-radius: 10px;
+
+
+}
+  
